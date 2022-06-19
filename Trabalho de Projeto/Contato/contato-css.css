@@ -1,0 +1,427 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body{
+    background-color: rgb(31, 31, 31);
+}
+@font-face {
+    font-family: 'titulo-normal';
+    src: url(../fontes/ABCGintoNormal-Medium-Trial.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'titulo-negrito';
+    src: url(../fontes/ABCGintoNord-Bold-Trial.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'paragrafos';
+    src: url(../fontes/whitneybook.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+nav{
+    background-color: rgb(31, 31, 31);
+    padding: 15px;
+    border-radius: 0px 0px 15px 15px;
+}
+
+nav > a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    left: 270px;
+    bottom: 5px;
+    color: white;
+    font-weight: bolder;
+    border-radius: 25px;
+}
+
+nav > .login{
+    padding: 10px 20px;
+    position: relative;
+    left: 530px;
+    background-color: rgb(0, 110, 255);
+    border-radius: 25px;
+}
+
+nav > .login:hover{
+    transition: all .6s ease;
+    box-shadow: 1px 0px 12px 6px rgba(0, 0, 0, 0.342);
+    background-color: rgb(52, 140, 255);
+}
+nav > .h1{
+    font-family: 'titulo-normal', 'Times', 'serif';
+    color: white;
+    font-weight: bolder;
+    position: relative;
+    left: 30px;
+    bottom: 5px;
+    font-size: 25px;
+}
+
+nav > .h1:hover{
+    color: rgba(0,110,255); 
+    background: transparent;
+    border-radius: 0px;
+}
+span{
+    color: rgb(0, 110, 255);
+    text-decoration: underline;
+}
+
+.button-diferent{
+    background-color: rgb(52, 140, 255);
+}
+nav > a:hover{
+    transition:all .4s ease;
+    background-color: rgb(0, 110, 255);
+    border-radius: 25px;
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+main > .primeira-pagina > h1{
+    font-family: 'titulo-negrito','Times','serif';
+    font-size: 55px;
+    color: white;
+    position: relative;
+    left: 200px;
+    width: 300px;
+    top: 220px;
+
+}
+
+main > .primeira-pagina > h2{
+    font-family: 'titulo-normal','Times','serif';
+    font-size: 20px;
+    color: rgb(151, 151, 151);
+    width: 300px;
+    position: relative;
+    left: 200px;
+    top: 240px;
+}
+
+
+main > .primeira-pagina > img{
+    width: 610px;
+    height: 490px;
+    position: relative;
+    left: 690px;
+    bottom: 50px;
+}
+main > .segunda-pagina > .suporte{
+    background-color: white;
+    width: 400px;
+    height: 150px;
+    border-radius: 25px;
+    padding: 15px;
+    position: relative;
+    left: 200px;
+    top: 220px;
+    box-shadow: 0px 0px 25px 5px rgba(0,0,0,0.66);
+}
+main > .segunda-pagina > .suporte > h1{
+    text-align: center;
+    font-family: 'titulo-negrito';
+    color: black;
+    font-size: 30px;
+}
+
+main > .segunda-pagina > .suporte > a{
+    margin-bottom: 15px;
+    position: relative;
+    top: 35px;
+    left: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+main > .segunda-pagina > .suporte > a:hover{
+    text-decoration: underline;
+    color: rgb(36, 36, 36);
+}
+
+main > .segunda-pagina > .financeiro{
+    background-color: white;
+    width: 400px;
+    height: 150px;
+    border-radius: 25px;
+    padding: 15px;
+    position: relative;
+    top: 240px;
+    left: 200px;
+    box-shadow: 0px 0px 25px 5px rgba(0,0,0,0.66);
+    
+}
+main > .segunda-pagina > .financeiro > h1{
+    text-align: center;
+    font-family: 'titulo-negrito';
+    color: black;
+    font-size: 30px;
+}
+
+main > .segunda-pagina > .financeiro > a{
+    margin-bottom: 15px;
+    position: relative;
+    top: 35px;
+    left: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+main > .segunda-pagina > .financeiro > a:hover{
+    text-decoration: underline;
+    color: rgb(36, 36, 36);
+}
+
+
+main > .segunda-pagina > .midias-sociais{
+    background-color: white;
+    width: 400px;
+    height: 150px;
+    border-radius: 25px;
+    padding: 15px;
+    position: relative;
+    left: 650px;
+    bottom: 140px;
+    box-shadow: 0px 0px 25px 5px rgba(0,0,0,0.66);
+}
+main > .segunda-pagina > .midias-sociais > h1{
+    text-align: center;
+    font-family: 'titulo-negrito';
+    color: black;
+    font-size: 30px;
+}
+
+main > .segunda-pagina > .midias-sociais > a{
+    margin-bottom: 15px;
+    position: relative;
+    top: 35px;
+    left: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+main > .segunda-pagina > .midias-sociais > a:hover{
+    text-decoration: underline;
+    color: rgb(36, 36, 36);
+}
+
+main > .segunda-pagina > .midias-sociais > .abc{
+    position: relative;
+    left: 150px;
+}
+
+main > .segunda-pagina > .judiciario{
+    background-color: white;
+    width: 400px;
+    height: 150px;
+    border-radius: 25px;
+    padding: 15px;
+    position: relative;
+    left: 650px;
+    bottom: 120px;
+    box-shadow: 0px 0px 25px 5px rgba(0,0,0,0.66);
+}
+main > .segunda-pagina > .judiciario > h1{
+    text-align: center;
+    font-family: 'titulo-negrito';
+    color: black;
+    font-size: 30px;
+}
+
+main > .segunda-pagina > .judiciario > a{
+    margin-bottom: 15px;
+    position: relative;
+    top: 35px;
+    left: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+main > .segunda-pagina > .judiciario > a:hover{
+    text-decoration: underline;
+    color: rgb(36, 36, 36);
+}
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+footer{
+    background-color: rgb(12, 12, 12);
+    padding: 10px;
+    height: 250px;
+    width: 1327.8px;
+    color: white;
+}
+    .footer-distributed{
+        background-color: #292c2f;
+        box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+        box-sizing: border-box;
+        width: 100%;
+        text-align: left;
+        font: bold 16px sans-serif;
+     
+        padding: 55px 50px;
+        margin-top: 80px;
+    }
+     
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right{
+        display: inline-block;
+        vertical-align: top;
+    }
+     
+    .footer-distributed .footer-left{
+        width: 40%;
+    }
+     
+    .footer-distributed h3{
+        color:  #ffffff;
+        font: normal 36px 'Cookie', cursive;
+        margin: 0;
+    }
+     
+    .footer-distributed h3 span{
+        color:  #5383d3;
+    }
+     
+     
+    .footer-distributed .footer-links{
+        color:  #ffffff;
+        margin: 20px 0 12px;
+        padding: 0;
+    }
+     
+    .footer-distributed .footer-links a{
+        display:inline-block;
+        line-height: 1.8;
+        text-decoration: none;
+        color:  inherit;
+    }
+     
+    .footer-distributed .footer-company-name{
+        color:  #8f9296;
+        font-size: 14px;
+        font-weight: normal;
+        margin: 0;
+    }
+     
+     
+    .footer-distributed .footer-center{
+        width: 35%;
+    }
+     
+    .footer-distributed .footer-center i{
+        background-color:  #33383b;
+        color: #ffffff;
+        font-size: 25px;
+        width: 38px;
+        height: 38px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 42px;
+        margin: 10px 15px;
+        vertical-align: middle;
+    }
+     
+    .footer-distributed .footer-center i.fa-envelope{
+        font-size: 17px;
+        line-height: 38px;
+    }
+     
+    .footer-distributed .footer-center p{
+        display: inline-block;
+        color: #ffffff;
+        vertical-align: middle;
+        margin:0;
+    }
+     
+    .footer-distributed .footer-center p span{
+        display:block;
+        font-weight: normal;
+        font-size:14px;
+        line-height:2;
+    }
+     
+    .footer-distributed .footer-center p a{
+        color:  #5383d3;
+        text-decoration: none;;
+    }
+     
+    .footer-distributed .footer-right{
+        width: 20%;
+    }
+     
+    .footer-distributed .footer-company-about{
+        line-height: 20px;
+        color:  #92999f;
+        font-size: 13px;
+        font-weight: normal;
+        margin: 0;
+    }
+     
+    .footer-distributed .footer-company-about span{
+        display: block;
+        color:  #ffffff;
+        font-size: 14px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+     
+    .footer-distributed .footer-icons{
+        margin-top: 25px;
+    }
+     
+    .footer-distributed .footer-icons a{
+        display: inline-block;
+        width: 35px;
+        height: 35px;
+        cursor: pointer;
+        background-color:  #33383b;
+        border-radius: 2px;
+     
+        font-size: 20px;
+        color: #ffffff;
+        text-align: center;
+        line-height: 35px;
+     
+        margin-right: 3px;
+        margin-bottom: 5px;
+    }
+     
+     
+    @media (max-width: 880px) {
+     
+        .footer-distributed{
+            font: bold 14px sans-serif;
+     
+        }
+     
+        .footer-distributed .footer-left,
+        .footer-distributed .footer-center,
+        .footer-distributed .footer-right{
+            display: block;
+            width: 100%;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+     
+        .footer-distributed .footer-center i{
+            margin-left: 0;
+        }
+        .main {
+            line-height: normal;
+            font-size: auto;
+        }
+     
+    }
